@@ -22,8 +22,8 @@ Created a chess AI from scratch using p5.js. Used the minimax algorithm with alp
 2: placed : It means that the piece that was picked has now been placed and now you are ready to pic another piece.<br />
 3: pick again : It means that some incorrect action has been done and you now need to repick the piece.<br />
 4: Game Over : It means that the game is over and the side which won is displayed thereafter.<br />
-6: Move is OK : If it was your turn to move and you moved.<br />
-7: Move is not OK : If it is not your turn to move.<br />
+5: Move is OK : If it was your turn to move and you moved.<br />
+6: Move is not OK : If it is not your turn to move.<br />
 
 # Be aware : 
 Always be attentive because the game does not tell whether you are in check or not and it immediately captures the king if possible.
