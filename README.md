@@ -28,4 +28,7 @@ Created a chess AI from scratch using p5.js. Used the minimax algorithm with alp
 # Be aware : 
 Always be attentive because the game does not tell whether you are in check or not and it immediately captures the king if possible.
 
+
+![git_2](https://user-images.githubusercontent.com/43096636/93685635-5127ef00-face-11ea-917e-2cc4aed7d51e.png)
+
 # "Enjoy playing"
