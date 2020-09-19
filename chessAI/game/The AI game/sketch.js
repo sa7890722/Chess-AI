@@ -1,3 +1,4 @@
+print("chess AI")
 var piece = [
   ['R(B)', 'KN(B)', 'B(B)', 'Q(B)', 'K(B)', 'B(B)', 'KN(B)', 'R(B)'],
   ['P(B)', 'P(B)', 'P(B)', 'P(B)', 'P(B)', 'P(B)', 'P(B)', 'P(B)'],
