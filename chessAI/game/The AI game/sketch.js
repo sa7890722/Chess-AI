@@ -456,7 +456,7 @@ function find_the_best(counter, board, pcs, alpha, beta){
 					var result = find_the_best(counter+1, temp, pc);
 					ans = Math.min(ans, result);
 					beta = Math.min( beta, ans);
-          if(beta <= alpha)
+         				 if(beta <= alpha)
 						break
 				}
 			}
