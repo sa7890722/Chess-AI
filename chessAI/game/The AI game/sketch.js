@@ -356,10 +356,11 @@ moved = (moved+1)%2;
 moves = 0;
 }
 
+let mid = [7, 0, 6, 1, 5, 2, 4, 3];
 function find_the_best(counter, board, pcs, alpha, beta){
 	if(counter>=4){
 		var sum = 0;
-		for(var i=0; i<8; ++i){
+		for(var i=7; i>=0; --i){
 			for(var j=0; j<8; ++j){
 			sum += board[i][j];
 		}
@@ -368,9 +369,9 @@ function find_the_best(counter, board, pcs, alpha, beta){
 	}
 	if(counter%2==0){
 		var ans = -1000001;
-		for(var i=0; i<8; ++i){
-			for(var j=0; j<8; ++j){
-
+		for(var i=7; i>=0; --i){
+			for(var kjk=0; kjk<8; ++kjk){
+				var j = mid[kjk];
 				if(board[i][j] == 0 || pcs[i][j] =='') continue;
 				if(pcs[i][j][(pcs[i][j].length-2)] == 'B') continue;
 				move(i, j, pcs);
@@ -422,8 +423,9 @@ function find_the_best(counter, board, pcs, alpha, beta){
 
 	else if(counter%2!=0){
 		var ans = +10000001;
-		for(var i=0; i<8; ++i){
-			for(var j=0; j<8; ++j){
+		for(var i=7; i>=0; --i){
+			for(var kjk=0; kjk<8; ++kjk){
+				var j = mid[kjk];
 				if(board[i][j] == 0 || pcs[i][j] =='') continue;
 				if(pcs[i][j][(pcs[i][j].length-2)] == 'W') continue;
 				move(i, j, pcs);
