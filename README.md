@@ -1,5 +1,6 @@
 # Chess-AI
 Created a chess AI from scratch using p5.js. Used the minimax algorithm with alpha beta pruning for move evaluation. Can play pretty well at an amatuer level.
+This has got a ply depth of 4. Also created a game with ply depth of 7 : <b> https://github.com/sa7890722/Chess-AI-Improved </b>
 
 
 # How to run the AI game : 
