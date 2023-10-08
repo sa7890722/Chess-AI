@@ -3,6 +3,7 @@ Created a chess AI from scratch using p5.js. Used the minimax algorithm with alp
 This has got a ply depth of 4. Also created a game with ply depth of 7 : <b> https://github.com/sa7890722/Chess-AI-Improved </b>
 Need to make some changes to the readme.
 some more changes.
+making some more changes.
 
 # How to run the AI game : 
 
