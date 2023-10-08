@@ -6,6 +6,7 @@ some more changes.
 making some more changes.
 adding some changes here.
 
+another change is coming up now.
 making another change here.
 
 # How to run the AI game : 
